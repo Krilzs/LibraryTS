@@ -1,0 +1,24 @@
+.library {
+  background-color: #777;
+  height: 90vh;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.library::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+.library::-webkit-scrollbar-thumb {
+  background-color: #222;
+  border-radius: 5px;
+}
