@@ -6,7 +6,7 @@ interface FilterProps {
 }
 
 const Filter: React.FC<FilterProps> = ({ changeFilter }) => {
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     console.log(e.target.pages.value, e.target.genre.value);
     changeFilter(e.target.pages.value, e.target.genre.value);
