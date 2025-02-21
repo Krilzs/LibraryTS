@@ -1,0 +1,37 @@
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 20px;
+}
+
+.form label {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.form label p {
+  border-bottom: #444 4px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form select {
+  width: fit-content;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #888;
+  color: white;
+  cursor: pointer;
+}
+
+.form button {
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 60%;
+  padding: 5px;
+  cursor: pointer;
+}

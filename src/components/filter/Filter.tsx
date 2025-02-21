@@ -14,9 +14,14 @@ const Filter: React.FC<FilterProps> = ({ changeFilter }) => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="pages">Max. Pages</label>
+      <form onSubmit={handleSubmit} className={styles.form}>
+        <label htmlFor="pages">
+          <p>Max. Pages</p>
+        </label>
         <input type="range" min="0" max="1200" name="pages" />
+        <label htmlFor="genre">
+          <p>Genre</p>
+        </label>
         <select name="genre">
           <option value="Ciencia ficción">C. Ficcion</option>
           <option value="Zombies">Zombies</option>

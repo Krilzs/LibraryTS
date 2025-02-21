@@ -2,10 +2,10 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 250px;
+  width: 200px;
   padding: 10px;
   background-color: #ddd;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
   align-items: center;
   justify-content: space-between;
@@ -13,18 +13,21 @@
 }
 
 .book p {
-  width: 80%;
+  width: 100%;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .cover {
   width: 100%;
   max-height: 300px;
   border-radius: 10px;
-  object-fit: cover;
+  aspect-ratio: 2/3;
+  object-fit: fill;
 }
 
 .Abutton {
@@ -32,7 +35,7 @@
   padding: 5px;
   border-radius: 4px;
   border: none;
-  background-color: #007700;
+  background-color: #006600;
   color: white;
   font-weight: bold;
   font-size: 18px;
